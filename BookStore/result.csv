@@ -1,0 +1,20 @@
+﻿Id,Author,Title,Genre,Price,PublishDate,Description
+bk108,"Knorr, Stefan",Creepy Crawlies,Horror,5,12/06/2000 00:00:00,"An anthology of horror stories about roaches,
+      centipedes, scorpions  and other insects."
+bk103,"Corets, Eva",Maeve Ascendant,Fantasy,6,11/17/2000 00:00:00,"After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society."
+bk111,"O'Brien, Tim",MSXML3: A Comprehensive Guide,Computer,37,12/01/2000 00:00:00,"The Microsoft MSXML3 parser is covered in 
+      detail, with attention to XML DOM interfaces, XSLT processing, 
+      SAX and more."
+bk107,"Thurman, Paula",Splish Splash,Romance,5,11/02/2000 00:00:00,"A deep sea diver finds true love twenty 
+      thousand leagues beneath the sea."
+bk105,"Corets, Eva",The Sundered Grail,Fantasy,6,09/10/2001 00:00:00,"The two daughters of Maeve, half-sisters, 
+      battle one another for control of England. Sequel to 
+      Oberon's Legacy."
+bk112,"Galos, Mike",Visual Studio 7: A Comprehensive Guide,Computer,50,04/16/2001 00:00:00,"Microsoft Visual Studio 7 is explored in depth,
+      looking at how Visual Basic, Visual C++, C#, and ASP+ are 
+      integrated into a comprehensive development 
+      environment."
+bk101,"Gambardella, Matthew",XML Developer's Guide,Computer,45,10/01/2000 00:00:00,"An in-depth look at creating applications 
+      with XML."

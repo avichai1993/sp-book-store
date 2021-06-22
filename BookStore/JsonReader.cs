@@ -19,7 +19,7 @@ namespace BookStore
         public List<Book> Read()
         {
             string jsonString = reader.ReadAllData();
-            if(jsonString == null)
+            if (jsonString == null)
             {
                 Console.WriteLine("Json reader was unable to get json string");
                 return null;
@@ -30,15 +30,34 @@ namespace BookStore
                 return null;
             }
 
-            List<Book> result = null;
+            List<Book> result = new List<Book>();
+            JArray jsonArray = null;
             try
             {
-                result = JsonConvert.DeserializeObject<List<Book>>(jsonString);
+                jsonArray = JArray.Parse(jsonString);
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
-                Console.WriteLine("Problem in json parsing: " + ex);
+                Console.WriteLine("Problem in json array parsing: " + ex);
             }
+
+            if (jsonArray != null)
+            {
+                IEnumerator<JToken> enumerator = jsonArray.GetEnumerator();
+                while (enumerator.MoveNext())
+                {
+                    try
+                    {
+                        result.Add(enumerator.Current.ToObject<Book>());
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("Problem in json object parsing: " + ex);
+                    }
+                }
+            }
+            //result = JsonConvert.DeserializeObject<List<Book>>(jsonString);
+
             return result;
         }
 

@@ -11,7 +11,7 @@
 				"description":"An in-depth look at creating applications \r\n      with XML."
 			},
 			{
-				"@id":"bk102","author":"Ralls, Kim","title":"Midnight Rain","genre":"Fantasy","price":"5.95","publish_date":"2000-12-16","description":"A former architect battles corporate zombies, \r\n      an evil sorceress, and her own childhood to become queen \r\n      of the world."
+				"@id":"bk102","author":"Ralls, Kim","title":"Midnight Rain","genre":"Fantasy","price":"5.95","publish_date":"2000-13-16","description":"A former architect battles corporate zombies, \r\n      an evil sorceress, and her own childhood to become queen \r\n      of the world."
 			},
 			{
 				"@id":"bk103","author":"Corets, Eva","title":"Maeve Ascendant","genre":"Fantasy","price":"5.95","publish_date":"2000-11-17","description":"After the collapse of a nanotechnology \r\n      society in England, the young survivors lay the \r\n      foundation for a new society."
